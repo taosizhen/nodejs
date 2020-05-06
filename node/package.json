@@ -1,0 +1,33 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.4",
+    "@types/mongoose": "^5.7.10",
+    "@types/node": "^13.11.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "csv-parse": "^4.9.0",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "moment": "^2.25.1",
+    "mongoose": "^5.9.7",
+    "multer": "^1.4.2",
+    "silly-datetime": "^0.1.2",
+    "xlsx": "^0.16.0"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.0",
+    "morgan": "^1.10.0",
+    "rimraf": "^3.0.2"
+  }
+}
